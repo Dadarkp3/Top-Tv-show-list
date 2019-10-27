@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Top! TV Show List</title>
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="assets/logo-top.png" alt="" />
+      <p id="subtitle">The best TV Show APP - Find what you are looking for!</p>
+    </header>
+    <main>
+      <form id="tvshow-form">
+        <input type="text" name="tvshow" />
+        <button type="submit">Search for TV Show</button>
+      </form>
+      <div id="loading"></div>
+      <div id="error">Ops! Couldn't find a awesome show for your query...</div>
+      <ul id="tvshow-list"></ul>
+      <script src="./bundle.js"></script>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  outline-style: none;
+}
+
+body {
+  padding: 0;
+  margin: 2rem 0;
+  background: #f003e8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header,
+main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#logo {
+  margin: 1rem auto;
+  width: 83%;
+  max-width: 500px;
+}
+
+#subtitle {
+  font-weight: bold;
+  color: white;
+  margin: 0 1rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+button {
+  cursor: pointer;
+  width: 47%;
+  padding: 1rem;
+  border-radius: 50px;
+  border: none;
+  background: #000447;
+  color: white;
+}
+
+li img {
+  height: 300px;
+}
+
+button:hover {
+  background: #ffbb00;
+}
+
+input {
+  width: 71vw;
+  margin: 2rem;
+  padding: 1rem;
+  background: #ffbb00;
+  border: 3px solid #000447;
+  border-radius: 95px;
+  color: #000447;
+}
+
+ul {
+  width: 90vw;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(257px, 2fr));
+  grid-gap: 14px;
+  grid-auto-rows: max-content;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+}
+
+.information {
+  background: #ffbb00;
+  color: #000447;
+  padding: 1rem;
+  height: 120px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.information:hover {
+  background: #000447;
+  color: white;
+}
+
+h2 {
+  margin: 1px 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
