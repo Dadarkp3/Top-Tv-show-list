@@ -72,6 +72,7 @@ input {
 
 ul {
   width: 90vw;
+  max-width: 900px;
   margin: 0;
   padding: 0;
   display: grid;
